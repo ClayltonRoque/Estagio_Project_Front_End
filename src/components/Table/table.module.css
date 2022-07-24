@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+  
+}
+  
+  
+.gridContainer {
+    background-color: var(--black);
+    color: var(--orange);
+    border: solid 1px var(--white);
+    width: 50rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.gridContainer th {
+    font-size: 2rem;
+    padding: 1.8rem;
+    color: var(--white);
+}
+
+.gridContainer td {
+    font-size: 1rem;
+    padding: 1.4rem;
+    color: var(--white);
+}
+
+.atendimentoActionButton, .pendenteActionButton, .finalizadoActionButton {
+    color: var(--white);
+    background-color: var(--orange);
+    width: 6.87rem;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+
+.atendimentoStatusButton, .pendenteStatusButton, .finalizadoStatusButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 999px;
+}
+
+.atendimentoStatusButton {
+    background-color: #80FF00;
+}
+
+.pendenteStatusButton {
+    background-color: #FFD600;
+}
+
+.finalizadoStatusButton {
+    background-color: #FF1F00;
+}
+
+
+
+
+
+
+    

@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+
+.gridContainer {
+    display: grid;
+    width: 53rem;
+    height: 46.5rem;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-row: auto;
+    
+    gap: 10px;
+    background-color: var(--black);
+   
+    padding: 10px;
+  }
+  
+  .gridContainer  div {
+    color: var(--white);
+    background-color: (--black);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .gridContainer p {
+    margin-top: 2.5rem;
+    font-size: 1.175rem;
+  }
+
+.statusButton {
+    border-radius: 999px;
+    background: green;
+}
+
+/* .actionButton {
+    
+    margin-top: 2.5rem;
+    width: 8rem;
+    height: 2.5rem;
+    padding: 5px;
+    margin-left: 35px;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 1.175rem;
+    font-weight: 700;
+    border-radius: 10px;
+ 
+} */
