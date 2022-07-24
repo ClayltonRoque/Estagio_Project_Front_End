@@ -1,0 +1,136 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 700;
+}
+
+
+
+.cardFront {
+    width: 21.87rem;
+    height: 31.25rem;
+    margin-left: 2rem;
+    background-color: var(--black);
+    color: var(--orange);
+    
+}
+
+.cardBack {
+    width: 21.87rem;
+    height: 31.25rem;
+    margin-left: 2rem;
+    background-color: var(--orange);
+    color: var(--black);
+}
+
+.card header {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: gray;
+    color: var(--black);
+    font-weight: 700;   
+}
+
+.fronth2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 2.18rem;
+    color: var(--black);
+    
+    background-color: var(--background);
+    width: 17.5rem;
+    height: 2.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.fronth3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17.5rem;
+    margin-left: 2.18rem;
+    background-color: var(--background);
+    color: var(--black);
+    
+    width: 17.5rem;
+    height: 2.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.backh2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-left: 2.18rem;
+    color: var(--background);
+
+    
+    background-color: var(--black);
+    width: 17.5rem;
+    height: 2.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.backh3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7.5rem;
+    margin-left: 2.18rem;
+    color: var(--orange);
+   
+    background-color: var(--black);
+    width: 17.5rem;
+    height: 2.5rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.card h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.93rem;
+    background-color: gray;
+    color: var(--black);
+    font-weight: 700;
+}
+
+.imgFront {
+    position: absolute;
+    width: 12rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    background-color: var(--background);
+    border-radius: 10px;
+}
+
+.card label {
+    position: absolute;
+    margin-left: 2.5rem;
+}
+
+.label1, .label3 {
+   margin-top: -1.25rem;
+}
+
+.label2, .label4, .label5, .label6 {
+    margin-top: 0.81rem;
+}
+

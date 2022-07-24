@@ -17,6 +17,7 @@ export function ServiceTablee() {
       };
 
     const [service, setService] = useState([])
+    const [selectService, setSelectService] = useState({})
 
     useEffect(() => {
      
@@ -26,6 +27,14 @@ export function ServiceTablee() {
       } as CommonHeaderProperties;
       getServices()
     })
+
+    async function Atendimento ( {servicos} ) {
+      const response = await axios.post("http://localhost:3000/attendence_service", {
+        id: servicos.id
+      })
+      setSelectService({});
+      getServices()
+    }
 
  
 
@@ -72,7 +81,7 @@ export function ServiceTablee() {
                 <td>{servico.solicitation}</td>
                 <td>{servico.end}</td>
                 <td>{<button >atender</button> ?
-                <button className={styles.pendenteActionButton}>Atender</button> :
+                <button onClick={Atendimento} className={styles.pendenteActionButton}>Atender</button> :
                 <button>excluir</button>}</td>
               </tr>)
             } 
