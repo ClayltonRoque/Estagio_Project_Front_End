@@ -2,6 +2,7 @@ import Head from "../../../node_modules/next/head"
 import styles from "../Menu/menu.module.css"
 import { useRouter } from 'next/router';
 import { useEffect, useState } from "react";
+import { funcionarioPdf } from "../Pdf/pdf";
 
 export function Menu() {
 
@@ -35,7 +36,7 @@ export function Menu() {
               <Head> <title>Home</title> </Head>
                 <header>Bem Vindo <strong>{name}</strong></header>
                 <form onSubmit={onSubmitContraCheque}> 
-                    <button>Acesse seu contra-cheque</button>
+                    <button onClick={funcionarioPdf}>Acesse seu contra-cheque</button>
                 </form>       
                 <form onSubmit={onSubmitCracha}>
                     <button>Acesse seu cracha</button>
