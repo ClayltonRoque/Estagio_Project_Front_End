@@ -2,21 +2,9 @@ import * as pdfMake from "pdfmake/build/pdfmake";
 import * as pdfFonts from 'pdfmake/build/vfs_fonts';
 
 
-
- 
-// async function BomDia() {
-//     useEffect(() => {
-//         const colaborador =  JSON.parse(localStorage.colaborador)
-//         setName(colaborador)
-//     },[])
-// }       
-
-// const [name, setName] = useState([])
-
-
 export async function funcionarioPdf() {
     
-   (pdfMake).vfs = pdfFonts.pdfMake.vfs;
+   pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
     const details = [
         {

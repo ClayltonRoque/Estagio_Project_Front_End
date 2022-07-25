@@ -3,16 +3,20 @@ import { useEffect, useState } from "react";
 
 export function ContraChequeCard () {
     const [name, setName] = useState([])
+    const [função, setFunção] = useState([])
+    const [admissão, setAdmissão] = useState([])
     useEffect(() => {
         const colaborador =  JSON.parse(localStorage.colaborador)
-        setName(colaborador)
+        setName(colaborador.name)
+        setFunção(colaborador.role)
+        setAdmissão(colaborador.admission)
     },[])
     return (
         <div className={styles.main}>
             <div className={styles.card}>
-                <header><p>Nome: {name.name}</p>
-                <p>Profissão: {name.role}</p>
-                <p>Data Admissão: {name.admission}</p> 
+                <header><p>Nome: {name}</p>
+                <p>Profissão: {função}</p>
+                <p>Data Admissão: {admissão}</p> 
                 </header>
                 <main>
                     <p>Salario<span>1.500,00 R$</span></p>

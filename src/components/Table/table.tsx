@@ -70,7 +70,7 @@ export function ServiceTablee() {
                 <td>{servico.end}</td>
                 <td>{<button >atender</button> ?
                 <button className={styles.atendimentoActionButton}>Encerrar</button> :
-                <button onClick={FinalizarAtendimento}>excluir</button>}</td>
+                <button >excluir</button>}</td>
               </tr>)
 
             } 
@@ -84,7 +84,7 @@ export function ServiceTablee() {
                 <td>{servico.solicitation}</td>
                 <td>{servico.end}</td>
                 <td>{<button >atender</button> ?
-                <button onSubmit={Atendimento} servicos={service} className={styles.pendenteActionButton}>Atender</button> :
+                <button  className={styles.pendenteActionButton}>Atender</button> :
                 <button>excluir</button>}</td>
               </tr>)
             } 
