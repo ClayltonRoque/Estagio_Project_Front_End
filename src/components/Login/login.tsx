@@ -30,7 +30,7 @@ export function Login() {
     const {
       data: { token, colaborador },
     } = await axios.post(
-      "https://estagio-project-lab-back-end.vercel.app/coloborador_authenticate",
+      "https://estagio-project-lab-back-49s947hmh-clayltonroque.vercel.app/coloborador_authenticate",
       values
     );
     localStorage.setItem("colaborador", JSON.stringify(colaborador));

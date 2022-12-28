@@ -12,7 +12,7 @@ interface CommonHeaderProperties extends HeadersDefaults {
 export function ServiceTablee() {
   async function getServices() {
     const response = await axios.get(
-      "https://estagio-project-lab-back-end.vercel.app/services"
+      "https://estagio-project-lab-back-49s947hmh-clayltonroque.vercel.app/services"
     );
     setService(response.data);
   }
@@ -29,7 +29,7 @@ export function ServiceTablee() {
 
   async function Atendimento({ servicos }) {
     const response = await axios.post(
-      "https://estagio-project-lab-back-end.vercel.app/attendence_service",
+      "https://estagio-project-lab-back-49s947hmh-clayltonroque.vercel.app/attendence_service",
       {
         id: servicos.id,
       }
@@ -38,7 +38,7 @@ export function ServiceTablee() {
 
   async function FinalizarAtendimento({ servicos }) {
     const response = await axios.post(
-      "https://estagio-project-lab-back-end.vercel.app/finalize_service",
+      "https://estagio-project-lab-back-49s947hmh-clayltonroque.vercel.app/finalize_service",
       {
         id: servicos.id,
       }
