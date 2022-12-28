@@ -7,7 +7,7 @@ export async function headers() {
   return [
     {
       // matching all API routes
-      source: "src/:path*",
+      source: "src/components",
       headers: [
         { key: "Access-Control-Allow-Credentials", value: "true" },
         { key: "Access-Control-Allow-Origin", value: "*" },
