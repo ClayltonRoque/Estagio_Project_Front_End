@@ -1,56 +1,55 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 12.16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12.16rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 38.75rem;
-    height: 30.62rem;
-    border-radius: 12px;
-    background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 38.75rem;
+  height: 30.62rem;
+  border-radius: 12px;
+  background-color: var(--black);
 }
 
 .card header {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .card input {
-    width: 20.93rem;
-    height: 3.5rem;
-    border: 1px solid var(--orange);
-    box-shadow: 0px 0px 0px 2px #FFDE88;
-    border-radius: 4px;
-    padding: 0.875rem;
-    margin-bottom: 2rem;
+  width: 20.93rem;
+  height: 3.5rem;
+  border: 1px solid var(--orange);
+  box-shadow: 0px 0px 0px 2px #ffde88;
+  border-radius: 4px;
+  padding: 0.875rem;
+  margin-bottom: 2rem;
 }
 
 .card label {
-   display: block;
-   margin-bottom: 0.31rem;
-   margin-left: 0.31rem;
-   font-weight: 700;
+  display: block;
+  margin-bottom: 0.31rem;
+  margin-left: 0.31rem;
+  font-weight: 700;
 }
 
 .card button {
-    width: 20.93rem;
-    height: 4.0rem;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    border-radius: 4px;
-    font-weight: 700;
-    background-color: var(--background);
-    color: var(--black);
+  width: 20.93rem;
+  height: 4rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: var(--background);
+  color: var(--black);
 }
 
 #socorro {
-   
-    margin-left: 15px !important;
+  margin-left: 15px !important;
 }
